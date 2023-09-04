@@ -1,7 +1,7 @@
 pipeline {
     agent {label 'java slave'}
     stages {
-        stage('Checkout') {
+        stage('Checkout the code') {
             steps {
                 git 'https://github.com/annemmalini/maven.git'
                
